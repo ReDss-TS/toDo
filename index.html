@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js">
+            </script>
+        </link>
+    </head>
+    <body>
+        <div class="header" id="myHead">
+            <h2 style="margin:5px">
+                My To Do Lists
+            </h2>
+            <input class="hBtn" id="myBtn" onclick="" type="button" value="Add To Do List">
+            </input>
+        </div>
+        <div class="Lists" id="Lists">
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="mClose">
+                        ×
+                    </span>
+                    <h2>
+                        Title of To Do List
+                    </h2>
+                </div>
+                <div class="modal-body">
+                    <input id="titleOfList" placeholder="Title..." type="text">
+                        <span class="addList" onclick="newList()">
+                            Add
+                        </span>
+                    </input>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+        <script src="site.js">
+        </script>
+    </body>
+</html>
